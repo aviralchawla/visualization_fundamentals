@@ -1,18 +1,20 @@
 # Fundamentals of Data Visualization
 
-Basic tutorial for CS undergraduates to understand data visualization and explore Python libraries. This guide will walk you through how to run all notebooks / code to visualize the data.
+Basic tutorial for CS undergraduates to understand data visualization and explore relevant Python libraries. This guide will walk you through on how to run all notebooks / code to visualize the data.
 
 ## Getting Started
 
 ### 0. Prerequisites
 
-Before you begin, make sure uou have the following correctly installed on your system.
+Before you begin, make sure you have the following correctly installed on your system:
 
 - **Python**: You must have Python correctly installed (ideally above version 3.9). To make sure that it is correctly installed, open your Terminal / Command Prompt and run the following command:
-```bash
-python --version
-```
-If for some reason it is not installed, you can follow the installation [guide](https://realpython.com/installing-python/).
+
+    ```bash
+    python --version
+    ```
+
+    If for some reason it is not installed, you can follow the installation [guide](https://realpython.com/installing-python/).
 
 - **Conda** (Optional but recommended): Conda is a package and environment manager that makes it very easy to handle many different projects with their own requirements. I will recommend following the installation [guide](https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html). If you do not want it, Python comes with its own built-in virtual environment manager, [venv](https://www.w3schools.com/python/python_virtualenv.asp), so we can use that.
 
@@ -106,7 +108,7 @@ Then:
 >> import matplotlib.pyplot as plt
 >> print(pd.__version__, plt.__version__)
 ```
-If there are no `ModuleNotFoundError`, you can exit by typing in `exit()`
+If there are no `ModuleNotFoundError`, you can exit by typing `exit()`
 
 ### Working Notebooks
 
